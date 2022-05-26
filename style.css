@@ -3,6 +3,12 @@
 body {
   font-family: "Lato", sans-serif;
   color: #6b1a22;
+  padding: 20px;
+}
+
+h1{
+  font-size: 700;
+  text-align: center;
 }
 
 h2 {
@@ -32,7 +38,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -65,6 +71,13 @@ header {
   color: #ecdbc9;
 }
 
+header nav ul {
+display: flex;
+list-style: none;
+justify-content: center;
+padding-bottom: 30px ;
+}
+
 header nav ul li {
   list-style-type: none;
 }
@@ -75,25 +88,38 @@ header nav ul li a {
   padding: 0 20px 0 0;
 }
 
+
+
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
+}
+
+love.png{
+width: 100%;
 }
 
 /* -------  Join Form ------- */
 form {
   border: 2px solid #6b1a22;
   padding: 10px;
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  display: inline-flex;
 }
+
 
 form label {
   font-weight: bold;
+  width: 200px;
+  display: inline-block;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 180px;  
 }
 
 form button {
@@ -118,3 +144,15 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 480px) {
+  header {
+    display: flex;
+    padding-top:20px;
+    flex-direction: row;
+  }
+
+  main{
+    flex-direction: row;
+  }
+}
