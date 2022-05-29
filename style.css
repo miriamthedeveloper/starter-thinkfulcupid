@@ -156,18 +156,107 @@ footer p {
     width: 60%;
   }
 
-  header {
-    padding: 0;
-    width: 100%;
-
-  }
-
   body {
     width: 100%;
     padding: 0
   }
 
-  main{
-    flex-direction: row;
+  header {
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
+
+  header nav ul {
+    justify-content: right;
+    padding-bottom: 20px ;
+    }
+  
+    /*---------About section------*/
+   section#about div{
+     display: flex;
+   }
+   section#about p{
+     display: flex;
+     width: 50%;
+     justify-content: end;
+   }
+
+   section#about img{
+    padding-right: 20px;
+    width: 20%;
+  }
+  
+   /*---------Download section------*/
+   
+   section#download{
+    display:flex;
+    justify-content: left;
+   }
+
+   section#download div{
+    padding-top: 5%;
+   }
+
+  section#download img{
+     width: 50%;
+   }
+ 
+
+ /*------------Blog section---------*/
+
+ .blogtwocolumn {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+justify-content: space-between;
+ }
+
+ .image1 {
+justify-content: left;
+width: 49%;
+padding-top: 20px;
+ }
+
+ .image2 {
+  justify-content: right;
+  width: 49%;
+  padding-top: 20px;
+   }
+
+.image3 {
+    justify-content: left;
+    width: 49%;
+    padding-top: 20px;
+     }
+
+  .image4 {
+    justify-content: right;
+    width: 49%;
+    padding-top: 20px;
+   }
+
+
+ /*section#blog img{
+  width: 50%;
+  display:flex
+ }
+
+ section#blog p {
+  width: 50%;
+  display:flex
+   
+ }
+
+ section#blog h3 {
+  width: 50%;
+  display:flex
+*/
+ }
+
+
+
+
+
 }
