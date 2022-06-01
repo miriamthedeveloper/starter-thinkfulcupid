@@ -63,6 +63,7 @@ header {
   background-color: #83092e;
   padding: 20px 20px 0 20px;
   text-align: center;
+ 
 }
 
 .logo {
@@ -109,6 +110,9 @@ form {
   display: inline-flex;
 }
 
+form div{
+  display: flex;
+}
 
 form label {
   font-weight: bold;
@@ -166,6 +170,7 @@ footer p {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    width: fit-content;
   }
 
   header nav ul {
