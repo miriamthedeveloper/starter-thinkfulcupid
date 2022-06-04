@@ -63,8 +63,9 @@ header {
   background-color: #83092e;
   padding: 20px 20px 0 20px;
   text-align: center;
- 
 }
+
+
 
 .logo {
   font-family: "Tangerine", cursive;
@@ -77,6 +78,7 @@ display: flex;
 list-style: none;
 justify-content: center;
 padding-bottom: 30px ;
+width: 100%;
 }
 
 header nav ul li {
@@ -111,7 +113,7 @@ form {
 }
 
 form div{
-  display:flex
+  display: flex;
 }
 
 form label {
@@ -150,9 +152,6 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
-  form div{
-    display:flex
-  }
   
   section#join{
     display:flex
@@ -163,23 +162,27 @@ footer p {
     width: 60%;
   }
 
-  body {
-    width: 100%;
-    padding: 0
+ body {
+    
+    padding: 0;
+   
   }
+ 
 
   header {
     padding: 20px 20px 0 20px;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    width: fit-content;
   }
 
   header nav ul {
-    justify-content: right;
+   
     padding-bottom: 20px ;
+    
     }
+
+    
   
     /*---------About section------*/
    section#about div{
