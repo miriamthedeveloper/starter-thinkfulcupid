@@ -112,9 +112,10 @@ form {
   display: inline-flex;
 }
 
-form div{
+section#join form > div{
   display: flex;
 }
+
 
 form label {
   font-weight: bold;
